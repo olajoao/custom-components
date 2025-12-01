@@ -34,15 +34,15 @@
         padding: 10px;
         display: flex;
         align-items: center;
-        column-gap: 5px;
+        column-gap: 14px;
 
         &:hover {
           background-color: #212329;
         }
 
         .dropdown__item--active {
-          width: 5px;
-          height: 5px;
+          width: 6px;
+          height: 6px;
           border-radius: 10px;
           display: block;
           background-color: #1E9;

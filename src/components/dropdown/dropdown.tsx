@@ -34,8 +34,8 @@ export function Dropdown() {
           <ul className="dropdown__content">
             {selectItems.map((item) => (
               <li key={item.id} onClick={() => select(item)} className="dropdown__item">
-                {selected?.id === item.id && <span className='dropdown__item--active'></span>}
                 {item.label}
+                {selected?.id === item.id && <span className='dropdown__item--active'></span>}
               </li>
             ))}
           </ul>
