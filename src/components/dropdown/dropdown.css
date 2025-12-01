@@ -28,11 +28,25 @@
       border: 1px solid #41484b;
       border-radius: 10px;
       width: 100%;
+      cursor: pointer;
 
       .dropdown__item {
         padding: 10px;
         display: flex;
         align-items: center;
+        column-gap: 5px;
+
+        &:hover {
+          background-color: #212329;
+        }
+
+        .dropdown__item--active {
+          width: 5px;
+          height: 5px;
+          border-radius: 10px;
+          display: block;
+          background-color: #1E9;
+        }
       }
     }
   }
