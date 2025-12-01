@@ -9,8 +9,10 @@ Building everything alone to sharp knowledge, mind and typing skills.
 Let's go.
 
 - [x] Accordion
-- [*] Custom dropdown 
-- [] Age calculator
+- [x] Custom dropdown 
+- [*] Age calculator
 - [] Datepicker
 
-Inspiration: https://roadmap.sh/projects/accordion
+Inspiration:
+- https://roadmap.sh/projects/accordion
+- https://roadmap.sh/projects/custom-dropdown
